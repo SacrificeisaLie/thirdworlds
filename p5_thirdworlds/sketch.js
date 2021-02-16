@@ -33,6 +33,10 @@ function draw() {
     level2();
   }else{ 
     level3(); 
+  }
+  
+  if (song.isPlaying() == false){ 
+     song.play(); 
   } 
 }
 
