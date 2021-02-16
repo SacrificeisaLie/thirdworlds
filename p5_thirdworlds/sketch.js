@@ -5,7 +5,7 @@ let dim = 600;
 let resetcount; 
 let sqrandposx, sqrandposy; 
 let squaresize = 50; 
-let squarecolor = 1.1;
+let squarecolor = 1.2;
 let lvlup, song; 
 let playersize = 10; 
 
@@ -135,7 +135,7 @@ function level3(){
 function squarerandpos(){ 
   sqrandposx = random(0, width - squaresize); 
   sqrandposy = random(height*0.03, height - squaresize);
-  squarecolor = random(1.1,1.2); 
+  squarecolor = random(1.2,1.26); 
   if (sqrandposx > 0 && sqrandposy){ 
     return 0;
   }
